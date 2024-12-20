@@ -7,9 +7,37 @@
     </head>
     <body>
         <div class="box">
-            <div class="boxTitle">
-                <h1>Registration for new users</h1>
+
+            <div> <h1>Registration for new users</h1> </div>
+
+            <div> <input type="text" placeholder="name" required> </div>
+
+            <div> <input type="text" placeholder="surname" required> </div>
+
+            <div> <input type="date" placeholder="age" required> </div>
+
+            <div> <input type="text" placeholder="phone number" required> </div>
+
+            <div> <input type="email" placeholder="e-mail" required> </div>
+
+            <div> <input type="password" placeholder="password" required> </div>
+
+            <div>
+                <label> I want to receive news on my e-mail
+                    <input type="checkbox" checked>
+                </label>
             </div>
+
+            <div>
+                <p> I am student <input type="radio" name="occupation"> </p>
+                <p> I am teacher <input type="radio" name="occupation"> </p>
+            </div>
+
+            <div>
+                <button type="submit" disabled> Register </button>
+                <button class="activeButton" type="reset"> Reset </button>
+            </div>
+
         </div>
     </body>
 </html>
