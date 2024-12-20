@@ -32,6 +32,10 @@ input:hover {
     background-color: white;
 }
 
+.info:focus {
+    box-shadow: 5px 5px rgb(123, 155, 186);
+}
+
 button {
     background-color: rgb(229, 238, 246);
     border: none;
@@ -49,6 +53,6 @@ button {
     transform: translateY(2px);
 }
 
-/* .check:before {
-    content: "I want to receive news on my e-mail";
-} */
+.check {
+    width: 20px;
+}
