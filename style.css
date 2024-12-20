@@ -23,6 +23,7 @@ input {
     border: none;
     border-radius: 20px;
     margin: 5px;
+    padding-left: 10px;
     height: 25px;
     width: 200px;
 }
@@ -48,3 +49,6 @@ button {
     transform: translateY(2px);
 }
 
+/* .check:before {
+    content: "I want to receive news on my e-mail";
+} */
